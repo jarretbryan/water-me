@@ -8,8 +8,8 @@ function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
     <body class="sans-serif pa3">
-      <h1>Route not found.</h1>
-      <a class="pt2" href="/">Back to main.</a>
+      <h1>Tend to your garden.</h1>
+      <a class="pt2" href="/">It's time for me to go back.</a>
     </body>
   `
 }

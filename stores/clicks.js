@@ -14,12 +14,25 @@ function store (state, emitter) {
 
     emitter.on('clicks:rain', function () {
       state.garden = '#garden-rain#'
+      state.color = 'dark-green'
       emitter.emit(state.events.RENDER)
     })
 
     emitter.on('clicks:moon', function () {
       state.garden = '#garden-night#'
-      state.color = 'dark-green'
+      state.color = 'dark-gray'
+      emitter.emit(state.events.RENDER)
+    })
+
+    emitter.on('clicks:fall', function () {
+      state.garden = '#garden-fall#'
+      state.color = 'orange'
+      emitter.emit(state.events.RENDER)
+    })
+
+    emitter.on('clicks:desert', function () {
+      state.garden = '#garden-desert#'
+      state.color = 'gold'
       emitter.emit(state.events.RENDER)
     })
 

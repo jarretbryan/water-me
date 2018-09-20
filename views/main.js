@@ -40,8 +40,8 @@ function view (state, emit) {
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow" onclick=${sun}>☀️</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue" onclick=${rain}>🌧</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-dark-gray" onclick=${moon}>🌖</button>
-                <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-orange">🍁</button>
-                <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow">🏜</button>
+                <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-orange" onclick=${fall}>🍁</button>
+                <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-gold" onclick=${desert}>🌵</button>
             </div>
         </div>
 
@@ -63,6 +63,14 @@ function view (state, emit) {
 
   function moon() {
     emit('clicks:moon')
+  }
+
+  function fall() {
+    emit('clicks:fall')
+  }
+
+  function desert() {
+    emit('clicks:desert')
   }
 
 }
