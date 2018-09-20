@@ -5,12 +5,12 @@ module.exports = footer
 function footer() {
     return html`
      <div>
-        <small class="f6 db tc">© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights Reserved</small>
-  <div class="tc mt3">
-    <a href="/language/" title="Language" class="f6 dib ph2 link mid-gray dim">Language</a>
-    <a href="/terms/"    title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
-    <a href="/privacy/"  title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
-  </div>
+        <small class="f6 db tc">Made with 💛 by<a href="https://www.github.com/jarretbryan" title="github" class="f6 dib ph2 link mid-gray dim">jarretbryan</a></small>
+        <div class="tc mt3">
+            <a href="https://www.github.com/jarretbryan" title="github" class="f6 dib ph2 link mid-gray dim">github</a>
+            <a href="https://www.twitter.com/jaybeekeeper"    title="Terms" class="f6 dib ph2 link mid-gray dim">twitter</a>
+            <a href="https://jarretbryan.github.io"  title="personal" class="f6 dib ph2 link mid-gray dim">personal</a>
+        </div>
      
      </div>
   `

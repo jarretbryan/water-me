@@ -26,7 +26,7 @@ function view (state, emit) {
             🐝 care for your plants 🐝
           </p>
    
-        <section class="ba br4 mw5 mw7-ns center bg-green pa3 ph5-ns">
+        <section class="ba br4 mw5 mw7-ns center bg-${state.color} pa3 ph5-ns">
           <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
           <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
           <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
@@ -45,10 +45,9 @@ function view (state, emit) {
             </div>
         </div>
 
-           <footer class="tc pv4 pv5-ns">
-            
-            ${footer()}
-          </footer>
+        <footer class="tc pv4 pv5-ns">  
+          ${footer()}
+        </footer>
 
       </main>
     </body>
