@@ -1,14 +1,16 @@
-const html = require('choo/html')
+var html = require('choo/html')
 
-const TITLE = 'water-me - main'
+var TITLE = 'water-me - main'
 
-const tracery = require('tracery-grammar')
-
-const gardens = require('../garden.json')
+var tracery = require('tracery-grammar')
+var plants = require('../garden.json')
+var gardens = tracery.createGrammar(plants)
 
 module.exports = view
 
 function view (state, emit) {
+  console.log(`${gardens.flatten('#garden-sun#')}`)
+
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
 
   return html`
