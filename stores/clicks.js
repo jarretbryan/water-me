@@ -36,6 +36,12 @@ function store (state, emitter) {
       emitter.emit(state.events.RENDER)
     })
 
+    emitter.on('clicks:aqua', function () {
+      state.garden = '#garden-aqua#'
+      state.color = 'light-blue'
+      emitter.emit(state.events.RENDER)
+    })
+
    
 
   })

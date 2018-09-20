@@ -22,9 +22,12 @@ function view (state, emit) {
          <h1 class="f4 fw6 db black link hover-green"> water me</h1>
        </header>
 
-       <p class="tc">
-            🐝 care for your plants 🐝
-          </p>
+        <p class="tc">
+          🌱 care for your plant friends 🌱
+        </p>
+        <p class="tc">
+          🐝 care for your animal friends 🐝
+        </p>
    
         <section class="ba br4 mw5 mw7-ns center bg-${state.color} pa3 ph5-ns">
           <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
@@ -42,6 +45,7 @@ function view (state, emit) {
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-dark-gray" onclick=${moon}>🌖</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-orange" onclick=${fall}>🍁</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-gold" onclick=${desert}>🌵</button>
+                <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-light-blue" onclick=${aqua}>🐠</button>
             </div>
         </div>
 
@@ -71,6 +75,10 @@ function view (state, emit) {
 
   function desert() {
     emit('clicks:desert')
+  }
+
+  function aqua() {
+    emit('clicks:aqua')
   }
 
 }

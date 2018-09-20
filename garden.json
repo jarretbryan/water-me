@@ -4,15 +4,18 @@
     "night-plant":["🍄","🌿","🌲","🌱"],
     "fall-plant":["🍂","🍁","🥀","🍄","🌲"],
     "desert-plant":["🌵","🌴","🌱"],
+    "aqua-plant":["🍃"],
     "day-animal":["🦔","🐇","🐞","🐝","🕊", "🐿", "🦋"],
     "night-animal":["🦇","🐍","🐁","🐀","🕷", "🦉"],
     "desert-animal":["🦎","🐍", "🐪","🐫"],
     "fall-animal":["🐞","🐌","🐿","🐓","🐖"],
+    "aqua-animal":["🐙","🦀","🐡","🐠","🐟","🐬","🐳","🐋","🦈"],
     "garden-sun": ["🌳 #day-plant# #day-plant# #day-animal# #day-plant# #day-animal# #day-animal# #day-plant# #day-animal# 🌳"],
     "garden-rain":["#rain-plant# #rain-plant# #rain-plant# #rain-plant# #rain-plant# #night-animal# #rain-plant# #rain-plant# #day-animal# #rain-plant#"],
     "garden-night":["#night-plant# #night-plant# #night-animal# #night-plant# #night-animal# #night-animal# #night-plant# #night-animal# #night-plant# #night-plant#"],
     "garden-fall":["#fall-plant# #fall-plant# #fall-animal# #fall-plant# #fall-animal# #fall-animal# #fall-plant# #fall-animal# #fall-plant# #fall-plant#"],
-    "garden-desert":["#desert-plant# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# "]
+    "garden-desert":["#desert-plant# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# "],
+    "garden-aqua":["#aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal#   "]
 }
 
 
