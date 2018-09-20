@@ -15,7 +15,7 @@
     "garden-night":["#night-plant# #night-plant# #night-animal# #night-plant# #night-animal# #night-animal# #night-plant# #night-animal# #night-plant# #night-plant#"],
     "garden-fall":["#fall-plant# #fall-plant# #fall-animal# #fall-plant# #fall-animal# #fall-animal# #fall-plant# #fall-animal# #fall-plant# #fall-plant#"],
     "garden-desert":["#desert-plant# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# #desert-animal# #desert-plant# "],
-    "garden-aqua":["#aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal#   "]
+    "garden-aqua":["#aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal#   ", "#aqua-animal# #aqua-plant# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-animal# #aqua-plant# #aqua-animal# "]
 }
 
 
