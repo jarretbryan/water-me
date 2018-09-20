@@ -31,21 +31,20 @@ function view (state, emit) {
         <h1 class="f4 fw6 db black link hover-green"> water me</h1>
         <div class='flex justify-around'>
             <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow">☀️</button>
-            <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue">🌧</button>
+            <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue" onclick=${makeRain}>🌧</button>
             <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-dark-gray">🌖</button>
             <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-orange">🍁</button>
             <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow">🏜</button>
         </div>
       </header>
       <main class="pa3 cf center">
-        <article class="flex items-center">
-          <div class="fl w-100 bg-green b--dotted">
-            <h1 class="f6 f2-m f-subheadline-l fw6 tc" > ${ gardens.flatten('#garden-sun#') }</h1 >
-          </div>
-        </article>
-
+   
         <section class="mw5 mw7-ns center bg-green pa3 ph5-ns">
+          <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
           <h1 class="mt0 tc">${gardens.flatten('#garden-sun#')}</h1>
+          <h1 class="mt0 tc">${gardens.flatten('#garden-sun#')}</h1>
+          <h1 class="mt0 tc">${gardens.flatten('#garden-sun#')}</h1>
+          <h1 class="mt0 tc">${gardens.flatten('#garden-rain#')}</h1>
           <p class="lh-copy measure">
             Water your plants🐝
           </p>
@@ -76,5 +75,9 @@ function view (state, emit) {
 
   function handleClick () {
     emit('clicks:add', 1)
+  }
+
+  function makeRain(){
+    emit('clicks:rain')
   }
 }

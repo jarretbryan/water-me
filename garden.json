@@ -1,11 +1,11 @@
 {
     "day-plant":["💐", "🌷", "🌺","🌸","🌻", "🌼", "🌿","🍃","🌱","🌾"],
     "rain-plant":["🌴","🌱","🌿","🎋","🌳","🌲","🎍"],
-    "night:plant":["🍄","🌿","🌲","🌱"],
+    "night-plant":["🍄","🌿","🌲","🌱"],
     "day-animal":["🦔","🐇","🐞","🐝","🕊"],
     "night-animal":[],
     "garden-sun": ["🌳 #day-plant# #day-plant# #day-animal# #day-plant# #day-animal# #day-animal# #day-plant# #day-animal# 🌳"],
-    "garden-rain":[],
+    "garden-rain":["#rain-plant# #rain-plant# #rain-plant# #rain-plant# #rain-plant# #night-animal# #rain-plant# #day-animal# #rain-plant# #day-animal# #rain-plant#"],
     "garden-night":[]
 }
 
