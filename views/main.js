@@ -1,6 +1,10 @@
-var html = require('choo/html')
+const html = require('choo/html')
 
-var TITLE = 'water-me - main'
+const TITLE = 'water-me - main'
+
+const tracery = require('tracery-grammar')
+
+const gardens = require('../garden.json')
 
 module.exports = view
 
@@ -11,7 +15,7 @@ function view (state, emit) {
     <body class="code lh-copy">
 
     <header class="tc pv4 pv5-ns">
-      <h1 class="f4 fw6 db black link hover-green"> Water Me</h1>
+      <h1 class="f4 fw6 db black link hover-green"> water me</h1>
       <div class='flex justify-around'>
           <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow">☀️</button>
           <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue">🌧</button>
@@ -19,8 +23,6 @@ function view (state, emit) {
       </div>
     </header>
       <main class="pa3 cf center">
-
-
       <article class="cf ph3 ph5-ns pv5">
         <header class="fn fl-ns w-50-ns pr4-ns">
           <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
