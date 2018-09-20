@@ -4,7 +4,7 @@
     "night:plant":["🍄","🌿","🌲","🌱"],
     "day-animal":["🦔","🐇","🐞","🐝","🕊"],
     "night-animal":[],
-    "garden-sun": ["🌳 #day-plant# #day-plant# #day-plant# #day-plant# #day-animal# #day-plant# #day-animal# #day-animal# #day-plant# #day-animal# 🌳"],
+    "garden-sun": ["🌳 #day-plant# #day-plant# #day-animal# #day-plant# #day-animal# #day-animal# #day-plant# #day-animal# 🌳"],
     "garden-rain":[],
     "garden-night":[]
 }
