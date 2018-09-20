@@ -34,15 +34,20 @@ function view (state, emit) {
           <h1 class="mt0 tc">${gardens.flatten(state.garden)}</h1>
         </section>
 
-           <footer class="tc pv4 pv5-ns">
-            <div class='flex justify-around'>
+
+        <div class="mt4">
+        <div class='flex justify-around'>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow" onclick=${sun}>☀️</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue" onclick=${rain}>🌧</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-dark-gray" onclick=${moon}>🌖</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-orange">🍁</button>
                 <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow">🏜</button>
             </div>
+        </div>
+
+           <footer class="tc pv4 pv5-ns">
             
+            ${footer()}
           </footer>
 
       </main>
