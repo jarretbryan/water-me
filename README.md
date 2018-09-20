@@ -1,6 +1,14 @@
 # water-me
-a virtual garden for you to care for
+a virtual garden for you 
 
+
+water-me is a virtual garden built with the [choo](https://choo.io/) framework and styled in css with [tachyons](http://tachyons.io/)
+
+https://water-me.glitch.me/
+
+https://water-me.netlify.com/
+
+---
 ## Commands
 Command                | Description                                      |
 -----------------------|--------------------------------------------------|
